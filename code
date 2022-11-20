@@ -1,0 +1,10 @@
+static void Main(string[] args)
+ {
+ byte f, l = 10;
+ for (f = 1; f <= 5; f++)
+ {
+ Console.WriteLine("{0} , {1}", f, l);
+ l--;
+ }
+ Console.ReadLine();
+ }
